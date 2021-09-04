@@ -24,7 +24,7 @@ let Profile = () => {
     };
 
     f();
-  }, []);
+  }, [value.displayName]);
 
   return (
     <>
