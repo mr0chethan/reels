@@ -59,7 +59,6 @@ let VideoCard = (props) => {
       </p>
       <p className="song">
         <span className="material-icons-outlined">music_note</span>
-        <marquee>song name</marquee>
       </p>
 
       {boxOpen ? (
@@ -77,7 +76,7 @@ let VideoCard = (props) => {
             {allComments.map((comment, index) => {
               return (
                 <div key={index}>
-                  <img src={comment.pic} />
+                  <img src={comment.pic} alt = "profie"/>
                   <div>
                     <p>
                       <b>{comment.username}</b>
